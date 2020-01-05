@@ -23,12 +23,14 @@ struct Person: PersonProtocol{
     var lastName: String
     var birthDate: Date
     var profession: String
+    var department: String
     
     init(firstName: String, lastName: String, birthDate: Date) {
         self.firstName = firstName
         self.lastName = lastName
         self.birthDate = birthDate
         self.profession = ""
+        self.department = ""
     }
 }
 
